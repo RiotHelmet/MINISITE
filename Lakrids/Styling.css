@@ -436,7 +436,14 @@ input[type="submit"]:hover {
 
 /* ----- Media Queries ------ */
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 840px) {
+  #nav_ul li {
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+}
+
+@media only screen and (max-width: 690px) {
   nav ul li {
     display: none;
   }
